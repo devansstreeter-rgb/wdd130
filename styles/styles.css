@@ -1,10 +1,13 @@
+:root {
+    --heavy-grey: #55F5;
+}
+
 main {
     max-width: 800px;
 }
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--heavy-grey) padding: 10px;
 }
 
 nav a {
@@ -14,7 +17,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heavy-grey);
 }
 
 main img {
@@ -34,7 +37,7 @@ aside {
     margin: 1em;
     border: 1px solid #888;
     padding: 2em;
-    background-color: #555;
+    background-color: var(--heavy-grey);
     color: #eee;
 }
 
@@ -45,6 +48,6 @@ aside img {
 
 footer {
     margin-top: 2em;
-    border-top: 2px solid #888;
+    border-top: 2px solid var(--heavy-grey);
     text-align: center;
 }
