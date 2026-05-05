@@ -7,7 +7,8 @@ main {
 }
 
 nav {
-    background-color: var(--heavy-grey) padding: 10px;
+    background-color: var(--heavy-grey);
+    padding: 10px;
 }
 
 nav a {
