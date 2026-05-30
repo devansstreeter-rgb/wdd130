@@ -1,8 +1,8 @@
 :root {
     --body-font: Arial;
     --heading-font: Verdana;
-    --primary-color: #2B8;
-    --accent1-color: #888;
+    --primary-color: #275;
+    --accent1-color: #444;
 }
 
 * {
@@ -14,10 +14,40 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 header {
-    background-color: var(--accent1-color);
+    font-size: 15px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 35% auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+#logo {
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header nav a {
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: .5rem;
+    width: 7rem;
+    text-align: center;
+    border: 1px solid var(--accent1-color);
 }
 
 header,
@@ -33,12 +63,8 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+h2 {
+    text-align: center;
 }
 
 .socialmedia a {
@@ -53,6 +79,7 @@ article {
 
 .hero {
     position: relative;
+    margin: 1rem 0;
 }
 
 .hero img {
@@ -63,17 +90,20 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 3rem;
     width: 100%;
-    padding: 16px;
+    padding: 1rem;
     text-align: center;
     color: #fff;
+    background-color: var(--accent1-color);
+    opacity: 90%;
 }
 
 .hero article {
     position: absolute;
     bottom: 20px;
-    padding: 16px;
+    padding: 1rem 2rem;
+    margin: 2rem;
     background-color: #fff;
 }
 
@@ -83,7 +113,62 @@ h1 {
     margin-left: 8px;
 }
 
+section {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
+figure {
+    margin: 0.5rem;
+}
+
+figure img {
+    width: 100px;
+}
+
+figcaption {
+    width: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+.split-columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.split-columns img {
+    width: 100%;
+    height: auto;
+}
+
+.split-columns p {
+    margin: 0 1rem;
+}
+
 footer {
     color: #fff;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 60% 1fr;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer p {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+.socialmedia {
+    align-content: right;
 }
