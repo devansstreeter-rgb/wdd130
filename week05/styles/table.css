@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid #8C8C8C;
+    letter-spacing: 1px;
+    font-family: Arial;
+}
+
+th,
+td {
+    border: 1px solid #969696;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+}
