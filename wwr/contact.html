@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Get in touch with us!">
+    <meta name="author" content="Daniel Streeter">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/wwr-logo.png" alt="company logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <article class="address">
+                <h3>Wild World Rafting Company</h3>
+                <p>1457 W Rill Rd</p>
+                <p>Kolob, Idaho</p>
+                <p>+1 999 999 999</p>
+                <p>info@wildrafting.com</p>
+            </article>
+            <iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d56389.46656683421!2d-117.08020716278405!3d44.75570601857397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sriver%20oregon!5e1!3m2!1sen!2sus!4v1780374474264!5m2!1sen!2sus"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <fieldset class="personal">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text">
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email">
+                </fieldset>
+
+                <fieldset class="radio">
+                    <p>Message Purpose</p>
+                    <div>
+                        <div class="radio-option">
+                            <input id="general-inquiry" name="purpose" type="radio">
+                            <label for="general-inquiry">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input id="reservation" name="purpose" type="radio">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input id="suggestion" name="purpose" type="radio">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="contact-message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message">Type here</textarea>
+                </fieldset>
+
+                <fieldset class="subscribe">
+                    <input id="subscribe" name="subscribe" type="checkbox">
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </fieldset>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/employee-1.png" alt="Employee Employeeson">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.png" alt="Employee Employeeton">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.png" alt="Employee Employeemeyer">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 WWR Company, Daniel Streeter</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="https://x.com"><img src="images/x-bw.svg" alt="X"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -119,6 +119,88 @@ section {
     margin: 1rem 0;
 }
 
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.address {
+    text-align: center;
+    margin: 1rem;
+    grid-column: 1 / span2;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+.contact form {
+    padding: 1rem;
+    width: 90%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+fieldset {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 0.75rem;
+    align-items: center;
+}
+
+.personal label,
+fieldset p {
+    grid-column: 1 / 2;
+}
+
+.personal input,
+.radio .radio-option {
+    grid-column: 2 / 3;
+}
+
+.personal input {
+    margin: .125rem;
+    height: 1.5rem;
+}
+
+.radio-option {
+    margin: .5rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+textarea,
+button {
+    grid-column: 1 / span2;
+    width: 100%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    height: 16px;
+    width: 16px;
+}
+
+.subscribe {
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+textarea {
+    height: 4rem;
+}
+
+button {
+    grid-column: 1 / span2;
+    height: 1.5rem;
+    text-align: center;
+}
+
 .gallery {
     display: flex;
     justify-content: space-around;
