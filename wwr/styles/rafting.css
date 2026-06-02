@@ -63,8 +63,10 @@ h2 {
     color: var(--primary-color);
 }
 
-h2 {
+h2,
+.contact h1 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .socialmedia a {
@@ -88,7 +90,7 @@ h2 {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 3rem;
     width: 100%;
