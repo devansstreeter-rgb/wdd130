@@ -115,6 +115,87 @@ h2,
     margin-left: 8px;
 }
 
+.homepagetwo {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0;
+}
+
+.homepagetwo article {
+    padding: 1.5rem 1.5rem 2.5rem;
+}
+
+.homepagetwo article h2 {
+    margin-bottom: 1rem;
+}
+
+.signup {
+    color: #fff;
+    background-color: var(--accent1-color);
+}
+
+.signup h2 {
+    color: #fff;
+}
+
+.signup button {
+    color: var(--accent1-color);
+    font: 16px Arial, sans-serif;
+    background-color: #fff;
+    border: none;
+    padding: 0.75rem;
+    margin: 1.25rem 0;
+    height: 2.5rem;
+}
+
+.booking p {
+    margin: 1.5rem 3rem;
+}
+
+.booking a,
+.trip-table a {
+    display: block;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem;
+    margin: 1rem 3rem;
+    text-align: center;
+}
+
+.splash,
+.trip-descriptions {
+    display: grid;
+}
+
+.splash article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 1rem;
+    margin: 1rem 0;
+}
+
+.trip-descriptions article {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    grid-gap: 1rem;
+    margin: 1rem 0;
+}
+
+.splash article img {
+    width: 100%;
+    height: auto;
+}
+
+.trip-descriptions img {
+    max-width: 300px;
+    height: auto;
+}
+
+.trip-descriptions p {
+    padding: 1rem;
+}
+
 section {
     background-color: #fff;
     padding: 1rem;
